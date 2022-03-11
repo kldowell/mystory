@@ -13,19 +13,19 @@ while keepPlaying.lower() == "yes":
     while not num.isdigit():
         num = input('Value not recognized. Please enter a numeric value: ')
 
-    room = input('A room in a house: ')
+    room = input('\nA room in a house: ')
     while (len(room) == 0):
         room = input('Please enter a room in a house: ')
 
-    fruit = input('A type of fruit: ')
+    fruit = input('\nA type of fruit: ')
     while (len(fruit) == 0):
         fruit = input('Please enter a type of fruit:')
 
-    fav_food = input('What is your favorite food? ')
+    fav_food = input('\nWhat is your favorite food? ')
     while (len(fav_food) == 0):
         fav_food = input('Please enter a favorite food:')
 
-    user_name = input('What is your name? ')
+    user_name = input('\nWhat is your name? ')
     while (len(user_name) == 0):
         user_name = input('Please enter your name:')
 
